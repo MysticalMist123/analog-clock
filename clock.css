@@ -1,0 +1,106 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+#clock{
+    display:flex;
+    border:5px solid black;
+    height:200px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transform: rotate(-90deg);
+}
+#hr{
+    position:absolute;
+    background: green;
+    height:3px;
+    width:25%;
+    transform: rotate(0deg);
+    transform-origin: left center;
+}
+#min{
+    position:absolute;
+    background: blue;
+    width:35%;
+    height:2px;
+    transform: rotate(0deg);
+    transform-origin: left center;
+}
+#sec{
+    position:absolute;
+    background:red;
+    width:40%;
+    height:1px;
+    transform: rotate(0deg);
+    transform-origin: left center;
+}
+
+.ver,.hor{
+    transform: rotate(90deg);
+}
+.hor{
+    position:absolute;
+    display: flex;
+    flex-direction: row;
+    /*border: 1px solid black;*/
+    width:100%;
+    justify-content: space-between;
+}
+.ver{
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    /*border: 1px solid black;*/
+    height: 100%;
+    justify-content: space-between;
+    text-align: center;
+}
+.d1_7{
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    /*border: 1px solid black;*/
+    height: 100%;
+    justify-content: space-between;
+    transform: rotate(-60deg);
+    text-align: center;
+}
+.d2_8{
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    /*border: 1px solid black;*/
+    height: 100%;
+    justify-content: space-between;
+    transform: rotate(-30deg);
+    text-align: center;
+}
+.d4_10{
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    /*border: 1px solid black;*/
+    height: 100%;
+    justify-content: space-between;
+    transform: rotate(30deg);
+    text-align: center;
+}
+.d5_11{
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    /*border: 1px solid black;*/
+    height: 100%;
+    justify-content: space-between;
+    transform: rotate(60deg);
+    text-align: center;
+}
+
+#text{
+    margin: 50px;
+    width: 150px;
+}
